@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-eskort-red: #DC2626;
+    --color-eskort-dark-red: #8F151B;
+    --color-eskort-yellow: #FFD200;
+    --color-eskort-gold: #FFDE6B;
+    --color-eskort-dark: #1A1A1A;
+    --color-eskort-charcoal: #141414;
+    --color-eskort-card-dark: #1E1E1E;
+    --color-eskort-specials-bg: #D6EEFF;
+    --color-eskort-quality-bg: #9E8224;
+    --color-eskort-heritage-bg: #FAF6ED;
+    --color-eskort-fav-bg: #E3F8F0;
+    --color-eskort-fav-card: #8F741C;
+    --color-eskort-green: #007748;
+  }
+
+  body {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Anton', 'Arial Narrow', sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .font-script {
+    font-family: 'Permanent Marker', 'Caveat', cursive;
+  }
+
+  .font-body {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom Scrollbar for horizontal slider cards */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle kitchen utensil background pattern for recipes */
+.bg-utensils-pattern {
+  background-color: #1A1A1A;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                    radial-gradient(rgba(255, 255, 255, 0.03) 1px, #1A1A1A 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}

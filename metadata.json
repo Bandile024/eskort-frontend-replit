@@ -1,0 +1,8 @@
+{
+  "name": "Eskort Butchery & Foods",
+  "description": "Official Eskort web frontend featuring quality meats, sizzling specials, recipes made easy, and store locator.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

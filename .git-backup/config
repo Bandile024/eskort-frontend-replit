@@ -1,0 +1,24 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "gitsafe-backup"]
+	url = git://gitsafe:5418/backup.git
+	fetch = +refs/heads/*:refs/remotes/gitsafe-backup/*
+	skipFetchAll = true
+	lfsurl = http://gitsafe:5419
+[remote "origin"]
+	url = https://github.com/Bandile024/eskort-frontend-replit
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[remote "subrepl-shared"]
+	url = git+ssh://git@ssh.riker.replit.dev:/home/runner/workspace
+	fetch = +refs/heads/*:refs/remotes/subrepl-shared/*
+	lfsurl = ssh://git@ssh.riker.replit.dev/home/runner/workspace
+[lfs]
+	repositoryformatversion = 0
+[lfs "http://gitsafe:5419"]
+	locksverify = false
